@@ -1,8 +1,8 @@
 <?php
 
-namespace Classid\TemplateReplacement\Traits;
+namespace Iqbalatma\TemplateReplacement\Traits;
 
-use Classid\TemplateReplacement\Exceptions\MissingRequiredParameterException;
+use Iqbalatma\TemplateReplacement\Exceptions\MissingRequiredParameterException;
 
 trait HasInformation
 {

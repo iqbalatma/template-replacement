@@ -1,6 +1,6 @@
 <?php
 
-namespace Classid\TemplateReplacement\Exceptions;
+namespace Iqbalatma\TemplateReplacement\Exceptions;
 
 use Exception;
 use Throwable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Classid\TemplateReplacement;
+namespace Iqbalatma\TemplateReplacement;
 
 use Classid\TemplateReplacement\Abstracts\BaseTemplateReplacement;
 use Classid\TemplateReplacement\Exceptions\InformationIsNotStringException;

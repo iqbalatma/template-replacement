@@ -1,6 +1,6 @@
 <?php
 
-namespace Classid\TemplateReplacement\Interfaces;
+namespace Iqbalatma\TemplateReplacement\Interfaces;
 
 interface InformationInterface
 {

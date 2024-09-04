@@ -1,10 +1,10 @@
 <?php
 
-namespace Classid\TemplateReplacement\Abstracts;
+namespace Iqbalatma\TemplateReplacement\Abstracts;
 
-use Classid\TemplateReplacement\Exceptions\InformationIsNotStringException;
-use Classid\TemplateReplacement\Exceptions\InvalidBlueprintException;
-use Classid\TemplateReplacement\Interfaces\InformationInterface;
+use Iqbalatma\TemplateReplacement\Exceptions\InformationIsNotStringException;
+use Iqbalatma\TemplateReplacement\Exceptions\InvalidBlueprintException;
+use Iqbalatma\TemplateReplacement\Interfaces\InformationInterface;
 
 abstract class BaseTemplateReplacement
 {

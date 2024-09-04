@@ -1,8 +1,8 @@
 {
-    "name": "classid/template-replacement",
+    "name": "iqbalatma/template-replacement",
     "autoload": {
         "psr-4": {
-            "Classid\\TemplateReplacement\\": "src/"
+            "Iqbalatma\\TemplateReplacement\\": "src/"
         }
     },
     "authors": [
@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Classid\\TemplateReplacement\\TemplateReplacementProvider"
+                "Iqbalatma\\TemplateReplacement\\TemplateReplacementProvider"
             ]
         }
     }

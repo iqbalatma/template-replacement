@@ -1,9 +1,9 @@
 <?php
 
-namespace Classid\TemplateReplacement\Abstracts;
+namespace Iqbalatma\TemplateReplacement\Abstracts;
 
-use Classid\TemplateReplacement\Interfaces\InformationInterface;
-use Classid\TemplateReplacement\Traits\HasInformation;
+use Iqbalatma\TemplateReplacement\Interfaces\InformationInterface;
+use Iqbalatma\TemplateReplacement\Traits\HasInformation;
 
 abstract class BaseInformation implements InformationInterface
 {

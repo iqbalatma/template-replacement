@@ -1,6 +1,6 @@
 <?php
 
-namespace Classid\TemplateReplacement;
+namespace Iqbalatma\TemplateReplacement;
 
 use Classid\TemplateReplacement\Console\Commands\GenerateInformationData;
 use Illuminate\Support\ServiceProvider;
@@ -12,7 +12,7 @@ class TemplateReplacementProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->mergeConfigFrom(__DIR__ . '/Config/templatereplacement.php', 'templatereplacement');
+        $this->mergeConfigFrom(__DIR__ . '/Config/template_replacement.php', 'template_replacement');
     }
 
     /**
@@ -26,7 +26,7 @@ class TemplateReplacementProvider extends ServiceProvider
             ]);
         }
         $this->publishes([
-            __DIR__.'/Config/templatereplacement.php' => config_path('templatereplacement.php'),
+            __DIR__.'/Config/template_replacement.php' => config_path('template_replacement.php'),
         ]);
     }
 }

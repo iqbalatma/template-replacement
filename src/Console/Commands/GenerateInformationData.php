@@ -1,8 +1,7 @@
 <?php
 
-namespace Classid\TemplateReplacement\Console\Commands;
+namespace Iqbalatma\TemplateReplacement\Console\Commands;
 
-use Classid\TemplateReplacement\TemplateReplacement;
 use Illuminate\Console\Command;
 
 class GenerateInformationData extends Command
@@ -34,6 +33,5 @@ class GenerateInformationData extends Command
         ];
 
         $this->table($headers, $data);
-        dd(TemplateReplacement::getAllData());
     }
 }
